@@ -1,10 +1,12 @@
+const path = require('path');
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('db.json');
+const router = jsonServer.router(path.join(__dirname, 'db.json'));
 const middlewares = jsonServer.defaults();
 
 // Use default middlewares (cors, static, logger)
 server.use(middlewares);
+server.use(jsonServer.bodyParser);
 
 // Mount router
 server.use(router);
@@ -20,5 +22,9 @@ server.listen(PORT, () => {
   console.log(`  - http://localhost:${PORT}/categories`);
   console.log(`  - http://localhost:${PORT}/customers`);
   console.log(`  - http://localhost:${PORT}/orders`);
+  console.log(`  - http://localhost:${PORT}/expenses`);
+  console.log(`  - http://localhost:${PORT}/staff`);
+  console.log(`  - http://localhost:${PORT}/suppliers`);
+  console.log(`  - http://localhost:${PORT}/transactions`);
   console.log(`========================================`);
 });

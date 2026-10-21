@@ -1,15 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Espresso",
-      "category": "Beverages",
-      "price": 120,
-      "stock": 50,
-      "barcode": "890123456701",
-      "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=500&auto=format&fit=crop&q=60"
-    },
-    {
       "id": "2",
       "name": "Cappuccino",
       "category": "Beverages",
@@ -119,5 +110,9 @@
       "paymentMethod": "UPI",
       "status": "Completed"
     }
-  ]
+  ],
+  "expenses": [],
+  "staff": [],
+  "suppliers": [],
+  "transactions": []
 }
