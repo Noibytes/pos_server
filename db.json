@@ -70,20 +70,6 @@
   ],
   "customers": [
     {
-      "id": "1",
-      "name": "Rahul Sharma",
-      "phone": "9876543210",
-      "email": "rahul@example.com",
-      "points": 120
-    },
-    {
-      "id": "2",
-      "name": "Ananya Nair",
-      "phone": "9876543211",
-      "email": "ananya@example.com",
-      "points": 250
-    },
-    {
       "name": "Manu",
       "email": "manu@gamail.com",
       "phone": "2345678901",
@@ -110,33 +96,7 @@
       "id": "W26Rqre"
     }
   ],
-  "orders": [
-    {
-      "id": "1",
-      "orderNumber": "ORD-1001",
-      "customerName": "Rahul Sharma",
-      "date": "2026-10-20T10:30:00Z",
-      "items": [
-        {
-          "productId": "1",
-          "name": "Espresso",
-          "price": 120,
-          "quantity": 2
-        },
-        {
-          "productId": "3",
-          "name": "Club Sandwich",
-          "price": 220,
-          "quantity": 1
-        }
-      ],
-      "subtotal": 460,
-      "tax": 23,
-      "total": 483,
-      "paymentMethod": "UPI",
-      "status": "Completed"
-    }
-  ],
+  "orders": [],
   "transactions": [],
   "sales": [],
   "expenses": [],
