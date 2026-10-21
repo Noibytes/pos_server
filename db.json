@@ -82,6 +82,19 @@
       "phone": "9876543211",
       "email": "ananya@example.com",
       "points": 250
+    },
+    {
+      "name": "Manu",
+      "email": "manu@gamail.com",
+      "phone": "2345678901",
+      "city": "Kollam",
+      "status": "Active",
+      "tag": "Regular",
+      "totalOrders": 0,
+      "totalSpent": 0,
+      "lastPurchase": "-",
+      "memberSince": "2026-10-21",
+      "id": "EVE6dc-"
     }
   ],
   "orders": [
