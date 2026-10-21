@@ -111,8 +111,10 @@
       "status": "Completed"
     }
   ],
+  "transactions": [],
+  "sales": [],
   "expenses": [],
   "staff": [],
-  "suppliers": [],
-  "transactions": []
+  "staffs": [],
+  "suppliers": []
 }
